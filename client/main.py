@@ -3,8 +3,6 @@ import sys
 import json
 import time
 
-time.sleep(2)
-
 url = 'http://server:8080/db/'
 
 r = requests.post(url + 'john', json={'first_name': 'john', 'last_name': 'smith'})

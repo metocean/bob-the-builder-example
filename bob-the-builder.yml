@@ -7,4 +7,4 @@ docker_compose:
         client: metocean/bob-example-client
 
 notification_emails:
-    - g.chalmers@metocean.co.nz
+    - [someone]@gmail.com

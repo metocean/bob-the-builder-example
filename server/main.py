@@ -18,4 +18,4 @@ def db_request_hanler(key):
     return jsonify(db[key])
 
 
-app.run(port=8080)
+app.run(port=8080, host='0.0.0.0')
