@@ -1,0 +1,10 @@
+
+docker_compose:
+    file: docker-compose.yml
+    test_service: client
+    services_to_push:
+        server: metocean/bob-example-server
+        client: metocean/bob-example-client
+
+notification_emails:
+    - g.chalmers@metocean.co.nz
