@@ -8,12 +8,9 @@ client < GET < http://server:8080/db/john
 ## docker-compose.yml
 ```
 version: '2'
-
 services:
-
   server:
     build: ./server/
-
   client:
     build: ./client/
     depends_on:
@@ -29,7 +26,6 @@ docker_compose:
     services_to_push:
         server: metocean/bob-example-server
         client: metocean/bob-example-client
-
 notification_emails:
     - [some-one-at]@gmail.com
 ```
