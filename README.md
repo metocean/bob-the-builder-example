@@ -29,6 +29,7 @@ docker_compose:
 notification_emails:
     - [some-one-at]@gmail.com
 ```
+in bob-the-builder.yml:  
 * docker_compose
   * file: points to the docker compose file to build (default: docker-compose.yml')
   * test_service: points to the docker compose service to run / test. If this docker exits with a non-zero the build fails.
